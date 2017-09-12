@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import median_absolute_error
 
 
-train_x, train_y, test_x, test_y = nn.load_and_prepare("D:\studying\dplm\data_nc_full_nice.csv")
+train_x, train_y, test_x, test_y = nn.load_and_prepare("D:\studying\dplm\data_nc_full_nice.csv")  #use your path to file
 
 
 clf = KernelRidge(kernel="rbf")         #alpha:1/0.001; kernel: sigmoid/polynomial (degree: 1/2/3)
